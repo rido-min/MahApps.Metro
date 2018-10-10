@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Wpf">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>netcoreapp3.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <FrameworkReference Include="Microsoft.DesktopUI" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\MahApps.Metro\MahApps.Metro.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="ControlzEx" Version="4.0.0-alpha0189" />
+        <PackageReference Include="JetBrains.Annotations" Version="2018.2.1" />
+        <PackageReference Include="MahApps.Metro.IconPacks" Version="3.0.0-alpha0035" />
+        <PackageReference Include="MaterialDesignColors" Version="1.1.3" />
+        <PackageReference Include="MaterialDesignThemes" Version="2.5.0-ci1176" />
+        <PackageReference Include="NHotKey" Version="1.2.1" />
+        <PackageReference Include="NHotKey.Wpf" Version="1.2.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Reference Include="System.ComponentModel.DataAnnotations" />
+        <Reference Include="System.Configuration" />
+        <Reference Include="System.Data.DataSetExtensions" />
+        <Reference Include="System.Data" />
+        <Reference Include="System.Windows.Forms" />
+        <Reference Include="WindowsFormsIntegration" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ApplicationDefinition Include="App.xaml" />
+        <Page Include="MainWindow.xaml" />
+        <Page Include="ExampleViews\*.xaml" />
+        <Page Include="ExampleWindows\*.xaml" />
+        <Page Include="HamburgerMenuRipple\*.xaml" />
+        <Page Include="Navigation\*.xaml" />
+    </ItemGroup>
+
+
+    
+</Project>
