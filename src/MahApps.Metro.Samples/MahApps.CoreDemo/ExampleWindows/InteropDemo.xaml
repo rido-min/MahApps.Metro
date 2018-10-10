@@ -25,9 +25,9 @@
                            FontSize="24"
                            Foreground="{DynamicResource BlackBrush}"
                            Text="you should see google below" />
-                <WindowsFormsHost Grid.Row="1">
+                <!--<WindowsFormsHost Grid.Row="1">
                     <winForms:WebBrowser Url="http://www.google.com" />
-                </WindowsFormsHost>
+                </WindowsFormsHost>-->
             </Grid>
         </Border>
         <!--<Border HorizontalAlignment="Center"
