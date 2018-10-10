@@ -348,7 +348,7 @@ namespace MetroDemo
 
         private void InteropDemo(object sender, RoutedEventArgs e)
         {
-            new InteropDemo().Show();
+            //new InteropDemo().Show();
 
         }
 

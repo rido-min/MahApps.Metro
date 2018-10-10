@@ -34,11 +34,23 @@
 
     <ItemGroup>
         <ApplicationDefinition Include="App.xaml" />
+        <Page Include="ExampleWindows\InteropDemo.xaml.txt" />
+        <Page Include="HamburgerMenuRipple\HamburgerMenuRipple.xaml.txt" />
         <Page Include="MainWindow.xaml" />
         <Page Include="ExampleViews\*.xaml" />
         <Page Include="ExampleWindows\*.xaml" />
         <Page Include="HamburgerMenuRipple\*.xaml" />
         <Page Include="Navigation\*.xaml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="ExampleWindows\InteropDemo.xaml.cs.txt" />
+      <None Remove="HamburgerMenuRipple\HamburgerMenuRipple.xaml.cs.txt" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Include="ExampleWindows\InteropDemo.xaml.cs.txt" />
+      <Compile Include="HamburgerMenuRipple\HamburgerMenuRipple.xaml.cs.txt" />
     </ItemGroup>
 
 

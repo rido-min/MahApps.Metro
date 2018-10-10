@@ -248,7 +248,7 @@
                                                                   Transition="Default">
                                 <Controls:TransitioningContentControl.ContentTemplate>
                                     <DataTemplate>
-                                        <Image Source="{Binding Mode=OneWay, Converter={converters:NullToUnsetValueConverter}}" />
+                                        <!--<Image Source="{Binding Mode=OneWay, Converter={converters:NullToUnsetValueConverter}}" />-->
                                     </DataTemplate>
                                 </Controls:TransitioningContentControl.ContentTemplate>
                             </Controls:TransitioningContentControl>

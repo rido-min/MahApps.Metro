@@ -64,7 +64,7 @@
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type ContentControl}">
                     <Viewbox Margin="{TemplateBinding Padding}" UseLayoutRounding="True">
-                        <Path Data="{Binding Content, RelativeSource={RelativeSource TemplatedParent}, Mode=OneWay, Converter={Converters:NullToUnsetValueConverter}}"
+                        <Path Data="{Binding Content, RelativeSource={RelativeSource TemplatedParent}, Mode=OneWay}"
                               Fill="{TemplateBinding Foreground}"
                               SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"
                               Stretch="Uniform"

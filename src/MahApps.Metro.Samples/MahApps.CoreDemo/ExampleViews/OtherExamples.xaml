@@ -24,7 +24,7 @@
             </Style>
 
             <DataTemplate x:Key="ImageDataTemplate" x:Shared="False">
-                <Image Source="{Binding Mode=OneWay, FallbackValue={x:Static DependencyProperty.UnsetValue}}" Stretch="Fill" />
+                <!--<Image Source="{Binding Mode=OneWay, FallbackValue={x:Static DependencyProperty.UnsetValue}}" Stretch="Fill" />-->
             </DataTemplate>
 
         </ResourceDictionary>
