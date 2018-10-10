@@ -34,8 +34,6 @@
 
     <ItemGroup>
         <ApplicationDefinition Include="App.xaml" />
-        <Page Include="ExampleWindows\InteropDemo.xaml.txt" />
-        <Page Include="HamburgerMenuRipple\HamburgerMenuRipple.xaml.txt" />
         <Page Include="MainWindow.xaml" />
         <Page Include="ExampleViews\*.xaml" />
         <Page Include="ExampleWindows\*.xaml" />
@@ -49,8 +47,13 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Compile Include="ExampleWindows\InteropDemo.xaml.cs.txt" />
-      <Compile Include="HamburgerMenuRipple\HamburgerMenuRipple.xaml.cs.txt" />
+      <Resource Include="mahapps.metro.logo2.ico" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="ExampleViews\TextExamples.xaml">
+        <Generator>MSBuild:Compile</Generator>
+      </None>
     </ItemGroup>
 
 

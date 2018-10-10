@@ -923,16 +923,16 @@ namespace MahApps.Metro.Controls
 
             var windowsSettingBehaviour = new WindowsSettingBehaviour();
 
-            var glowWindowBehavior = new GlowWindowBehavior();
-            BindingOperations.SetBinding(glowWindowBehavior, GlowWindowBehavior.ResizeBorderThicknessProperty, new Binding { Path = new PropertyPath(ResizeBorderThicknessProperty), Source = this });
-            BindingOperations.SetBinding(glowWindowBehavior, GlowWindowBehavior.GlowBrushProperty, new Binding { Path = new PropertyPath(GlowBrushProperty), Source = this });
-            BindingOperations.SetBinding(glowWindowBehavior, GlowWindowBehavior.NonActiveGlowBrushProperty, new Binding { Path = new PropertyPath(NonActiveGlowBrushProperty), Source = this });
+            //var glowWindowBehavior = new GlowWindowBehavior();
+            //BindingOperations.SetBinding(glowWindowBehavior, GlowWindowBehavior.ResizeBorderThicknessProperty, new Binding { Path = new PropertyPath(ResizeBorderThicknessProperty), Source = this });
+            //BindingOperations.SetBinding(glowWindowBehavior, GlowWindowBehavior.GlowBrushProperty, new Binding { Path = new PropertyPath(GlowBrushProperty), Source = this });
+            //BindingOperations.SetBinding(glowWindowBehavior, GlowWindowBehavior.NonActiveGlowBrushProperty, new Binding { Path = new PropertyPath(NonActiveGlowBrushProperty), Source = this });
 
             var collection = new StylizedBehaviorCollection
             {
                 borderlessWindowBehavior,
                 windowsSettingBehaviour,
-                glowWindowBehavior
+                //glowWindowBehavior
             };
 
             StylizedBehaviors.SetBehaviors(this, collection);

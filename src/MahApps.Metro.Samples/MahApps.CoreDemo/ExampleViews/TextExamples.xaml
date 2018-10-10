@@ -53,7 +53,7 @@
                             </StackPanel>
                         </DataTemplate>
                     </Controls:MetroHeader.HeaderTemplate>
-                    <TextBox SpellCheck.IsEnabled="True" Text="Enabled">
+                    <TextBox SpellCheck.IsEnabled="False" Text="Enabled">
                         <TextBox.ContextMenu>
                             <ContextMenu>
                                 <MenuItem Header="This is only a Test-Item" />
@@ -68,7 +68,7 @@
                          Controls:TextBoxHelper.UseFloatingWatermark="True"
                          Controls:TextBoxHelper.Watermark="Watermark"
                          Controls:TextBoxHelper.WatermarkAlignment="Right"
-                         SpellCheck.IsEnabled="True"
+                         SpellCheck.IsEnabled="False"
                          ToolTip="Default alignment">
                     <TextBox.ContextMenu>
                         <ContextMenu>
@@ -165,7 +165,7 @@
                 <RichTextBox Margin="{StaticResource ControlMargin}"
                              Padding="5"
                              IsDocumentEnabled="True"
-                             SpellCheck.IsEnabled="True">
+                             SpellCheck.IsEnabled="False">
                     <FlowDocument>
                         <Paragraph>
                             <Hyperlink NavigateUri="https://github.com/MahApps/MahApps.Metro">
